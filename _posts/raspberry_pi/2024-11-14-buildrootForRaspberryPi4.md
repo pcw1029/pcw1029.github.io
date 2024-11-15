@@ -7,15 +7,17 @@ categories: [raspberry_pi]
 
 
 
-1.  개발 환경 
 
-   1. Ubuntu 18.04 (Desktop)
 
-   2. buildroot version : 2021.08.1
+1. 개발 환경 
 
-   3. 5.5 Inch Amoled Display(1080 x 1920) 
+   Ubuntu 18.04 (Desktop)
 
-      
+   buildroot version : 2021.08.1
+
+   5.5 Inch Amoled Display(1080 x 1920) 
+
+   
 
 2. buildroot-2021.08.1 Download site : https://buildroot.org/downloads/
 
