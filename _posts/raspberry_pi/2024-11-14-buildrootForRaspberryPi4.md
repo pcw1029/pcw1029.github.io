@@ -301,3 +301,32 @@ categories: [raspberry_pi]
    
 
 8. 부팅시 로고 삽입
+
+   1. 김프 이미지 편집 툴을 이용하여 로고로 사용할 이미지를 생성한다. 
+
+   2. 부팅 로고로 사용하기 위해 ppm파일로 변경한다.
+
+      convert your_image.png -resize 224x224 -colors 224 logo_linux_clut224_binary.ppm
+
+   3. binaray인 경우 ascii로 변경해준다.
+
+      pnmnoraw logo_linux_clut224_binary.ppm > logo_linux_clut224_ascii.ppm
+
+   4. 해당 경로로 이미지를 복사한 다음  커널을 재 컴파일 한다.
+
+      cp logo_linux_clut224_ascii.ppm ~/buildroot-2021.08.1/output/build/linux-custom/drivers/video/logo/logo_linux_clut224.ppm
+
+   5. 커널의 로그 레벨에 따라 로고가 출력 안될수도 있다. 따라서 로그레벨에 따라 영향 받지 않게 하기 위해 ~/buildroot-2021.08.1/output/build/linux-custom/drivers/video/fbdev/core/fbcon.c 파일을 수정해 준다.
+
+      ```c
+      if (logo_shown < 0 && console_loglevel <= CONSOLE_LOGLEVEL_QUIET) 	
+          logo_shown = FBCON_LOGO_DONTSHOW;
+      ```
+
+      위 코드 삭제 또는 주석 처리한다. 
+
+      
+
+   6. ㅇ
+
+9. d
