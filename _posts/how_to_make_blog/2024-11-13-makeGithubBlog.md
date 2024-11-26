@@ -1,8 +1,8 @@
 ---
-layout: post
 title:  "GitHub Blog 만들기"
 date: 2024-11-13
-categories: [how_to_make_blog]
+categories: 
+   - how_to_make_blog
 ---
 
 1. https://github.com/topics/jekyll-theme 이곳에서 원하는 테마(minimal-mistakes)를 선택한다. 

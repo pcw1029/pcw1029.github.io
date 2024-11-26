@@ -1,8 +1,8 @@
 ---
-layout: post
 title:  "QT5 Qt Test 사용법"
 date: 2024-11-18
-categories: [QtFramework]
+categories: 
+   - QtFramework
 ---
 
 1. 프로젝트 생성
