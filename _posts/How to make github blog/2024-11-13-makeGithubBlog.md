@@ -5,8 +5,6 @@ date: 2024-11-13
 tags: CLanguage
 categories: 
    - How to make github blog
-
-toc: true
 ---
 
 1. https://github.com/topics/jekyll-theme 이곳에서 원하는 테마(minimal-mistakes)를 선택한다. 
