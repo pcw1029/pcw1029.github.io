@@ -1,12 +1,10 @@
 ---
+layout: single
 title:  "Blog 설정 변경하기"
 date: 2024-11-26
 categories: 
     - how_to_make_blog
 ---
-
-
-
 
 
 # 구성

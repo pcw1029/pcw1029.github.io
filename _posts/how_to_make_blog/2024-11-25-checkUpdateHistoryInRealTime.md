@@ -1,4 +1,5 @@
 ---
+layout: single
 title:  "로컬서버를 이용한 블로그 업데이트 내용 확인하기"
 date: 2024-11-25
 categories: 

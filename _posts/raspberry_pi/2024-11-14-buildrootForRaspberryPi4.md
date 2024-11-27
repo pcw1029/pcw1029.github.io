@@ -1,4 +1,5 @@
 ---
+layout: single
 title:  "Buildroot를 이용한 Raspberry Pi4 이미지 만들기"
 date: 2024-11-14
 categories: 

@@ -1,4 +1,5 @@
 ---
+layout: single
 title:  "GitHub Blog 만들기"
 date: 2024-11-13
 categories: 

@@ -1,4 +1,5 @@
 ---
+layout: single
 title:  "QT5 Qt Test 사용법"
 date: 2024-11-18
 categories: 

@@ -1,4 +1,5 @@
 ---
+layout: single
 title:  "QT5 Github 원격 저장소 연결"
 date: 2024-11-18
 categories: 
