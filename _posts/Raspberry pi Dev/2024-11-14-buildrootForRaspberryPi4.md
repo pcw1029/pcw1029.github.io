@@ -3,7 +3,7 @@ layout: single
 title:  "Buildroot를 이용한 Raspberry Pi4 이미지 만들기"
 date: 2024-11-14
 categories: 
-   - raspberry_pi
+   - Raspberry pi Dev
 ---
 
 
@@ -131,7 +131,7 @@ categories:
    pcw1029@~/buildroot-2021.08.1 $ make raspberrypi4_qt_defconfig
    ```
 
-   ![buildrootForRaspberryPi4_01](../../images/raspberry_pi/buildrootForRaspberryPi4_01.png)
+   ![buildrootForRaspberryPi4_01](../../images/Raspberry pi Dev/buildrootForRaspberryPi4_01.png)
 
    
 
@@ -145,7 +145,7 @@ categories:
 
    1. 빌드시 아래와 같이 오류가 발생한 경우
 
-      ![buildrootForRaspberryPi4_02](../../images/raspberry_pi/buildrootForRaspberryPi4_02.png)
+      ![buildrootForRaspberryPi4_02](../../images/Raspberry pi Dev/buildrootForRaspberryPi4_02.png)
 
       
 
@@ -156,7 +156,7 @@ categories:
       pcw1029@~/buildroot-2021.08.1 $ make
       ```
 
-      ![buildrootForRaspberryPi4_03](../../images/raspberry_pi/buildrootForRaspberryPi4_03.png)
+      ![buildrootForRaspberryPi4_03](../../images/Raspberry pi Dev/buildrootForRaspberryPi4_03.png)
 
       
 
@@ -168,7 +168,7 @@ categories:
       pcw1029@~/buildroot-2021.08.1/output/images $ lsblk
       ```
 
-      ![buildrootForRaspberryPi4_04](../../images/raspberry_pi/buildrootForRaspberryPi4_04.png)
+      ![buildrootForRaspberryPi4_04](../../images/Raspberry pi Dev/buildrootForRaspberryPi4_04.png)
 
       
 
@@ -235,7 +235,7 @@ categories:
          Command (m for help): w
          ```
 
-      ![buildrootForRaspberryPi4_05](../../images/raspberry_pi/buildrootForRaspberryPi4_05.png)
+      ![buildrootForRaspberryPi4_05](../../images/Raspberry pi Dev/buildrootForRaspberryPi4_05.png)
 
       
 
