@@ -4,7 +4,7 @@ title:  "GitHub Issues 관리 및 자동화 가이드"
 date: 2025-04-03
 tags: git
 categories: 
-   - Git
+   - Git-Hub
 ---
 
 # GitHub Issues 관리 및 자동화 가이드

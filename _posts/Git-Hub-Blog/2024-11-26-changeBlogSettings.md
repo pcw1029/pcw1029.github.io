@@ -3,7 +3,7 @@ layout: single
 title:  "Blog 설정 변경하기"
 date: 2024-11-26
 categories: 
-   - How to make github blog
+   - Git-Hub-Blog
 ---
 
 
@@ -48,7 +48,7 @@ minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "
 
 https://learn.microsoft.com/en-us/previous-versions/commerce-server/ee825488(v=cs.20)?redirectedfrom=MSDN 사이트를 참고하여 선택한다.
 
-![changeBlogSettings_01](../../images/How to make github blog/changeBlogSettings_01.png)
+![changeBlogSettings_01](../../images/Git-Hub-Blog/changeBlogSettings_01.png)
 
 ```yaml
 # Site Settings

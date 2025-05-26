@@ -3,7 +3,7 @@ layout: single
 title:  "로컬서버를 이용한 블로그 업데이트 내용 확인하기"
 date: 2024-11-25
 categories: 
-   - How to make github blog
+   - Git-Hub-Blog
 ---
 
 
@@ -99,16 +99,16 @@ $ bundle install
 $ bundle exec jekyll serve
 ```
 
-![checkUpdateHistoryInRealTime_01](../../images/How to make github blog/checkUpdateHistoryInRealTime_01.png)
+![checkUpdateHistoryInRealTime_01](../../images/Git-Hub-Blog/checkUpdateHistoryInRealTime_01.png)
 
 
 
 여기까지 정상적으로 완료되면 내 컴퓨터에서 웹사이트를 띄울 수 있다. 
 
-![checkUpdateHistoryInRealTime_02](../../images/How to make github blog/checkUpdateHistoryInRealTime_02.png)
+![checkUpdateHistoryInRealTime_02](../../images/Git-Hub-Blog/checkUpdateHistoryInRealTime_02.png)
 
 ***서버를 종료했다 다시 실행 할 때 아래와 같은 오류가 나타나면 해당 파일을 삭제하거나 이름을 바꾼 후 다시 실행하면 정상 동작한다.***
 
-![checkUpdateHistoryInRealTime_03](../../images/How to make github blog/checkUpdateHistoryInRealTime_03.png)
+![checkUpdateHistoryInRealTime_03](../../images/Git-Hub-Blog/checkUpdateHistoryInRealTime_03.png)
 
-![checkUpdateHistoryInRealTime_04](../../images/How to make github blog/checkUpdateHistoryInRealTime_04.png)
+![checkUpdateHistoryInRealTime_04](../../images/Git-Hub-Blog/checkUpdateHistoryInRealTime_04.png)

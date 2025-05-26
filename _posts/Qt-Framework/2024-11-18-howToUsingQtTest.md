@@ -3,7 +3,7 @@ layout: single
 title:  "QT5 Qt Test 사용법"
 date: 2024-11-18
 categories: 
-   - Qt5 Framework
+   - Qt-Framework
 ---
 
 1. 프로젝트 생성
@@ -12,23 +12,23 @@ categories:
 
    2. New Project - Qt Creator 창이 출력되면 Other Project에서 Subdirs Project를 선택한다.
 
-      ![howToUsingQtTest_01](../../images/Qt5 Framework/howToUsingQtTest_01.png)
+      ![howToUsingQtTest_01](../../images/Qt-Framework/howToUsingQtTest_01.png)
 
       
 
    3. 프로젝트 생성 폴더를 지정하고 Next를 클릭한다.
 
-      ![howToUsingQtTest_02](../../images/Qt5 Framework/howToUsingQtTest_02.png)
+      ![howToUsingQtTest_02](../../images/Qt-Framework/howToUsingQtTest_02.png)
 
-      ![howToUsingQtTest_03](../../images/Qt5 Framework/howToUsingQtTest_03.png)
+      ![howToUsingQtTest_03](../../images/Qt-Framework/howToUsingQtTest_03.png)
 
-      ![howToUsingQtTest_04](../../images/Qt5 Framework/howToUsingQtTest_04.png)
+      ![howToUsingQtTest_04](../../images/Qt-Framework/howToUsingQtTest_04.png)
 
       
 
    4. Finish & Add Subproject를 클릭하면 처음 프로젝트 생성 화면이 아래와 같은 출력된다. Application의 Qt Console Application을 선택하겠다. 물론 Widgets을 사용해도 되지만 간단한 테스트를 목적으로 하고있기 때문에 콘솔 어플리케이션을 선택했다.
 
-      ![howToUsingQtTest_05](../../images/Qt5 Framework/howToUsingQtTest_05.png)
+      ![howToUsingQtTest_05](../../images/Qt-Framework/howToUsingQtTest_05.png)
 
       
 
@@ -36,7 +36,7 @@ categories:
 
       프로젝트 생성을 마쳤으면 아래 그림과 같이 콘솔용 어플리케이션 프로젝트가 howToQtTest란 폴더 아래 존재하는것을 볼수 있을것이다.
 
-   ![howToUsingQtTest_06](../../images/Qt5 Framework/howToUsingQtTest_06.png)
+   ![howToUsingQtTest_06](../../images/Qt-Framework/howToUsingQtTest_06.png)
 
    
 
@@ -44,27 +44,27 @@ categories:
 
    1. howToQtTest폴더에서 마우스 우측버튼을 클릭하여 New Subproject...를 선택하면 아래 그림과 같이 New Subproject - Qt Creator 창이 출력된다. 여기서 Auto Test Project를 선택한다.
 
-      ![howToUsingQtTest_07](../../images/Qt5 Framework/howToUsingQtTest_07.png)
+      ![howToUsingQtTest_07](../../images/Qt-Framework/howToUsingQtTest_07.png)
 
       
 
    2. 프로젝트 이름을 설정 후 Next를 클릭한다.
 
-      ![howToUsingQtTest_08](../../images/Qt5 Framework/howToUsingQtTest_08.png)
+      ![howToUsingQtTest_08](../../images/Qt-Framework/howToUsingQtTest_08.png)
 
       
 
    3. Test Case name을 입력하고 Next를 클릭한다.
 
-      ![howToUsingQtTest_09](../../images/Qt5 Framework/howToUsingQtTest_09.png)
+      ![howToUsingQtTest_09](../../images/Qt-Framework/howToUsingQtTest_09.png)
 
-      ![howToUsingQtTest_10](../../images/Qt5 Framework/howToUsingQtTest_10.png)
+      ![howToUsingQtTest_10](../../images/Qt-Framework/howToUsingQtTest_10.png)
 
       
 
    4. Finish를 클릭하면 아래 그림과 같이 howToQtTest란 폴더안에 이전에 생성했던 콘솔 어플리케이션인 myApp와 qTestMyApp 프로젝트가 존재할 것이다.
 
-      ![howToUsingQtTest_11](../../images/Qt5 Framework/howToUsingQtTest_11.png)
+      ![howToUsingQtTest_11](../../images/Qt-Framework/howToUsingQtTest_11.png)
 
       
 
@@ -72,7 +72,7 @@ categories:
 
    1. 간단하게 myApp프로젝트에서 덧셈과 뺄셈 함수를 만들고 QtTest에서 이 함수를 시험하는 코드를 작성해 보겠다. myApp프로젝트에 addSub.cpp, addSub.h 파일을 생성하고 아래와 같이 간단한 코드를 삽입했다.
 
-      ![howToUsingQtTest_12](../../images/Qt5 Framework/howToUsingQtTest_12.png)
+      ![howToUsingQtTest_12](../../images/Qt-Framework/howToUsingQtTest_12.png)
 
       
 
@@ -84,10 +84,10 @@ categories:
 
    3. 기본적으로 test_case1이란 Slot 함수가 보일것이다. 추가 테스트가 필요하면 아래와 같이 test_case2 또는 다른 이름을 사용해서 추가하면 된다.
 
-      ![howToUsingQtTest_14](../../images/Qt5 Framework/howToUsingQtTest_14.png)
+      ![howToUsingQtTest_14](../../images/Qt-Framework/howToUsingQtTest_14.png)
 
       
 
    4. qTestMyApp 프로젝트에서 마우스 우측버튼을 클릭하여 Run해보면 아래의 테스트 결과가 출력된다.
 
-      ![howToUsingQtTest_15](../../images/Qt5 Framework/howToUsingQtTest_15.png)
+      ![howToUsingQtTest_15](../../images/Qt-Framework/howToUsingQtTest_15.png)

@@ -4,7 +4,7 @@ title:  "Git Hub의 프로젝트 폴더 구성 및 설정 방법"
 date: 2024-11-13
 tags: git
 categories: 
-   - Git
+   - Git-Hub
 ---
 
 # Git Hub의 프로젝트 폴더 구성 및 설정 방법
