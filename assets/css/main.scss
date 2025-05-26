@@ -5,22 +5,15 @@ search: false
 
 @charset "utf-8";
 
-// 스킨과 테마 불러오기 전에 밑줄 제거 스타일 작성
-a,
-a:visited {
-  text-decoration: none;
-}
-
-.page__content a,
-.archive__item-title,
-.archive__item-title a {
-  text-decoration: none;
-
-  &:hover {
-    text-decoration: underline; // 원한다면 hover 시에만 밑줄 유지
-  }
-}
-
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&family=Noto+Sans+KR:wght@100..900&display=swap');
+
+// 밑줄 제거 스타일은 여기!
+.archive__item-title a {
+  text-decoration: none !important;
+
+  &:hover {
+    text-decoration: none !important;
+  }
+}
