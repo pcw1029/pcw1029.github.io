@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "GitHub Issues 관리 및 자동화 가이드"
+title:  "Semantic Versioning (시맨틱 버저닝)"
 date: 2025-05-27
 tags: versioning
 categories: 
