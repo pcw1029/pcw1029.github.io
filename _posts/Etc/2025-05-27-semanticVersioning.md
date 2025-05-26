@@ -7,8 +7,6 @@ categories:
    - Etc
 ---
 
-# Semantic Versioning (시맨틱 버저닝)
-
 소프트웨어 버전은 일반적으로 다음과 같은 형식을 따릅니다
 
 
