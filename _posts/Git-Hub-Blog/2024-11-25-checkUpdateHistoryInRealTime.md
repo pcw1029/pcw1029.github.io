@@ -18,6 +18,7 @@ Desktop의 OS는 Ubuntu 18.04 이다.
 참고 사이트 : https://jekyllrb.com/docs/
 
 
+
 # 루비 설치 하기 
 
 1. **패키지 목록 업데이트 및 의존성 설치**: 먼저 필요한 의존성을 설치합니다.
@@ -76,8 +77,6 @@ Desktop의 OS는 Ubuntu 18.04 이다.
    ```bash
    $ ruby -v
    ```
-
-
 
 
 

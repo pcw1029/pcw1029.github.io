@@ -329,7 +329,3 @@ author_profile: false
       위 코드 삭제 또는 주석 처리한다. 
 
       
-
-   6. ㅇ
-
-9. d

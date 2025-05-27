@@ -8,6 +8,7 @@ search: false
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&family=Noto+Sans+KR:wght@100..900&display=swap');
+// https://fonts.google.com/ 사이트를 통해 폰트를 선택할수 있다. 
 
 // 밑줄 제거 스타일은 여기!
 .archive__item-title a {
