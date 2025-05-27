@@ -11,18 +11,18 @@ categories:
 
 ## 로컬 폴더 구성
 
+```text
 프로젝트 이름(AAA)/
 ├── 장치 이름1 or 모듈 이름1(AA1)/        ← submodule
-│    ├── HW/
-│    └── SW/
-├── 장치 이름2 or 모듈 이름2(AA2)/         ← submodule
-│    ├── HW/
-│    └── SW/
-
+│   ├── HW/
+│   └── SW/
+├── 장치 이름2 or 모듈 이름2(AA2)/        ← submodule
+│   ├── HW/
+│   └── SW/
+│
 ├── README.md
 └── .gitignore
-
-
+```
 
 ## Git Hub Repository 구성
 
@@ -79,6 +79,7 @@ $ git push -u origin main
 
 목표로 했던 폴더의 구성을 AA1, AA2의 폴더 아래 구성하면 된다.
 
+```text
 ├── AAA
 │   ├── AA1
 │   │   ├── HW
@@ -89,6 +90,7 @@ $ git push -u origin main
 │   │   ├── README.md
 │   │   └── SW
 │   └── README.md
+```
 
 
 
